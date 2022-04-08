@@ -1,0 +1,214 @@
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.cartes{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+	
+}
+
+
+ul{
+	justify-content: center;
+}
+
+
+li{
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.card{
+	box-shadow: 5px 5px 2px #0000009e;
+}
+
+.btn-primary{
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+
+
+
+.baniere_bottom{
+	position: fixed;
+	display: flex;
+	background-color: #282828;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h3{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0.75rem;
+}
+
+.baniere_bottom a{
+	color: white;
+}
+
+.baniere_bottom_home a{
+	color: white;
+}
+
+.contact img{
+	max-width: 30px;
+	margin-right: 0.25rem;
+}
+
+.contact{
+	margin-left: 2rem;
+}
+
+.logo_bottom{
+	width: 190px;
+    height: 40px;
+    margin-top: auto;  
+    margin-bottom: auto; 	
+}
+
+ul{
+	margin-top: 0.75rem;  
+    margin-bottom: 0.75rem; 
+    display: flex;
+    justify-content: center;
+    margin-right: 32px;
+    padding-right: 32px;
+    margin-left: 32px;
+    padding-left: 32px;
+
+}
+
+li.li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.25rem;
+}
+
+.baniere_bottom p{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+
+@media screen and (max-width:  600px){
+	.baniere_bottom_home{
+		position: initial;
+	}
+
+	.baniere_bottom{
+		font-size: 70%;
+	}
+
+	.baniere_bottom p{
+		visibility: hidden;
+	}
+
+}
+
+.baniere_bottom h2{
+	color: white;
+}
+
+@media screen and (max-width:  600px){
+	
+	.cartes{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		margin-bottom: 8rem;
+	}
+
+	.card{
+		max-width: 70%;
+		margin-bottom: 2rem;
+	}
+}
+
+.container p{
+	justify-content: center;
+	text-align: justify;
+}
+
+.container h2{
+	justify-content: center;
+	text-align: justify;
+}
+
+.container h3{
+	color: black;
+	justify-content: flex-start;
+}
+
+.cursus{
+	display: flex;
+	align-items: center;
+}
+
+.texte{
+	margin-right: 2rem;
+}
+
+.langues{
+	margin-bottom: 10rem;
+}
+
+.test{
+	justify-content: center;
+}
+
+.nav-link{
+	color: grey;
+}
+
+.main{
+	color: blue;
+}
+
+.tests{
+	display: flex;
+	width: 25%;
+}
+
+.carousel{
+	display: flex;
+	justify-content: center;
+}
+
+.jesaispas{
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+.carousel-control-color{
+	color: black;
+}      
+
+.test1{
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-item{
+	margin-right: 0;
+}
+
+.carousel-inner{
+	display: flex;
+	justify-content: center;
+}
